@@ -12,6 +12,16 @@ All models are written **from first principles**, emphasizing **clarity, reprodu
 
 ---
 
+## 🧱 Research Motivation
+
+This repository is part of my ongoing **PyTorch Deep Research Grind** — a personal mastery track to understand AI model internals at a research-ready level.
+
+Instead of relying on high-level libraries, this project breaks down every architectural component (recurrent units, gating mechanisms, attention scoring, etc.) to achieve *first-principles understanding* of how modern sequence models function.
+
+> The objective wasn't to build a flashy demo — it was to learn how things actually work under the hood, the way DeepMind or FAIR research engineers would.
+
+---
+
 ## 🧠 Overview
 
 The goal of this project was to understand and re-implement the fundamental building blocks of sequence modeling architectures used in modern AI research.  
@@ -31,7 +41,6 @@ The full pipeline supports **sequence regression/classification** tasks and can 
 | 🧩 `LSTMAttention` | `models/lstm_attention.py` | Combines LSTM encoder with attention for context-aware output |
 | 📦 `data_loader.py` |  | Dataset + DataLoader utilities for real sequential datasets (e.g., time series, signals, etc.) |
 | ⚙️ `config.py` |  | Global hyperparameter configuration (hidden size, layers, LR, etc.) |
-| 🧮 `utils/metrics.py` |  | Evaluation metrics (MSE, RMSE, R²) for regression-type outputs |
 
 ---
 
@@ -48,10 +57,7 @@ rnn_lstm_attention/
 │   ├── rnn_cell.py
 │   ├── custom_lstm.py
 │   ├── attention.py
-│   ├── lstm_attention.py
-│
-├── utils/
-│   ├── metrics.py
+│   └── lstm_attention.py
 │
 ├── data/
 │   └── your_dataset.csv
