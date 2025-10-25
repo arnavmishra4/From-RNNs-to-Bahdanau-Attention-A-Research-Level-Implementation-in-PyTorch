@@ -151,16 +151,6 @@ scikit-learn
 
 ---
 
-## 🧾 Citation / Usage
-
-If you use this implementation as a reference for your own research or coursework, please cite:
-
-```
-Arnav Mishra, "RNN–LSTM–Attention: A Modular Sequence Modeling Implementation in PyTorch (Research Exercise Repository)", 2025.
-```
-
----
-
 ## 🧠 Future Additions
 
 - GRU and Transformer-based extensions
